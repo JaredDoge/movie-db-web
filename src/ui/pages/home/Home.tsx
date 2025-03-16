@@ -1,6 +1,11 @@
+import Treding from "./treding/Treding"
+import styles from './Home.module.css'
+
 const Home = () => {
     return (
-        <div>Home</div>
+        <div className={styles.treding}>
+           <Treding/>
+        </div>
     )
 }
 
